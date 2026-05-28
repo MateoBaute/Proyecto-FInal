@@ -13,18 +13,23 @@ header{
     position: sticky;
     top: 0;
 }
-header h1{
-    font-size: 24px;
-    margin: 0;
+.logo{
+    width: 60px;
 }
 nav a{
     color: white;
     text-decoration: none;
     margin-left: 20px;
+    transition: 0.3s ease;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #b7b7b7
 }
 .hero{
     position: relative;
-    height: 70vh;
+    height: 80vh;
     max-height: 70rem;
 
     display: flex;
@@ -39,7 +44,7 @@ nav a{
     position: absolute;
     inset: 0;
 
-    background-image: url("img/fondo.jpg");
+    background-image: url("img/fondo.png");
     background-size: 100% 100%;
     background-position: center;
 
@@ -53,4 +58,22 @@ nav a{
 
 #relleno{
     min-height: 100vh;
+}
+.overlay{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    padding: 30px;
+    border-radius: 10px;
+}
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 20px;
+    margin-left: 20px;
+    transition: 0.3s ease;
+}
+button:hover{
+    background-color: darkred;
 }
