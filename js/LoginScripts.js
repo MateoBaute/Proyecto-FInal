@@ -3,7 +3,6 @@ function login(){
     let username = document.getElementById("username").value;
     let password = document.getElementById("password").value;
     let email = document.getElementById("email").value;
-    let url = "http://localhost:8080/login?username=" + username + "&password=" + password + "&email=" + email;
 
     let user = {
         name: username,
