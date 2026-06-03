@@ -1,33 +1,41 @@
-body{
-    margin: 0;
+body {
+    max-width: 90%;
+    margin: 0 auto;
     font-family: Arial;
     background-color: black;
     color: white;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-color: black;
+    max-height: 50px;
     position: sticky;
     top: 0;
+    z-index: 800;
+    border-bottom: 1px solid #333333;
 }
-.logo{
+
+.logo {
     width: 60px;
 }
-nav a{
+
+nav a {
     color: white;
     text-decoration: none;
     margin-left: 20px;
     transition: 0.3s ease;
 }
 
-nav a:hover{
+nav a:hover {
     text-decoration: underline;
     color: #b7b7b7
 }
-.hero{
+
+.hero {
     position: relative;
     height: 80vh;
     max-height: 70rem;
@@ -39,7 +47,7 @@ nav a:hover{
     overflow: hidden;
 }
 
-.hero::before{
+.hero::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -51,21 +59,23 @@ nav a:hover{
     filter: blur(5px);
 }
 
-.hero *{
+.hero * {
     position: relative;
     z-index: 1;
 }
 
-#relleno{
+#relleno {
     min-height: 100vh;
 }
-.overlay{
+
+.overlay {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.733);
     padding: 30px;
     border-radius: 10px;
 }
-button{
+
+button {
     background-color: red;
     color: white;
     border: none;
@@ -74,7 +84,8 @@ button{
     margin-left: 20px;
     transition: 0.3s ease;
 }
-button:hover{
+
+button:hover {
     background-color: darkred;
 }
 
@@ -134,18 +145,18 @@ button:hover{
     background-color: #a61f1f;
 }
 
-.registerlink{
+.registerlink {
     text-align: center;
     margin-top: 15px;
 }
 
-.registerlink a{
+.registerlink a {
     color: #c62828;
     font-weight: bold;
     text-decoration: none;
 }
 
-.registerlink a:hover{
+.registerlink a:hover {
     text-decoration: underline;
 }
 
@@ -165,3 +176,6 @@ button:hover{
 .botonback:hover {
     background-color: #333333;
 }
+
+/*"Nosotros" */
+.section-nosotros {}
