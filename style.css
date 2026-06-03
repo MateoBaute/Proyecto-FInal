@@ -19,7 +19,11 @@ header {
     border-bottom: 1px solid #333333;
 }
 
+<<<<<<< HEAD
 .logo {
+=======
+.logo{
+>>>>>>> 627c313d183e2a60cc225735db96b0c69a1bafa2
     width: 60px;
 }
 
@@ -90,12 +94,20 @@ button:hover {
 }
 
 .parrafologin {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 8px 0 4px 0;
     text-align: left;
     font-weight: 600;
-    color: #222222;
+    color: #ffffff;
 }
+
+.titulologin{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 8px 0 4px 0;
+    text-align: left;
+    font-weight: 600;
+    color: #ffffff;
+}  
 
 .login {
     max-width: 320px;
@@ -105,7 +117,7 @@ button:hover {
     margin: 80px auto;
     border: 1px solid #d1d1d1;
     padding: 1.5rem;
-    background-color: #ffffff;
+    background-color: #474747;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
